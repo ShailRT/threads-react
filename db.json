@@ -1,0 +1,180 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user_uuid": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "username": "Shailesh Rawat",
+      "handle": "shailrt",
+      "bio": "Cod",
+      "link": "https://www.linktr.ee/aniakubow",
+      "img": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_640.png",
+      "instagram_url": "https://www.instagram.com/aniakubow",
+      "followers": [
+        {
+          "uuid": "3d7b0797-9972-43d8-8407-9e98a75efcb6"
+        },
+        {
+          "uuid": "328f5873-56ff-47fa-92ec-01f016cfdb2c"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "3d7b0797-9972-43d8-8407-9e98a75efcb6",
+      "username": "Bobby's Burgers",
+      "handle": "bobbyburgers",
+      "bio": "burger hi burger",
+      "link": "https://www.bobbyji.com",
+      "img": "https://imgur.com/QvICKE3.jpg",
+      "instagram_url": "https://www.instagram.com/bobby",
+      "followers": [
+        {
+          "uuid": "20444525-69d9-429e-8e2d-bdce76dd9a7a"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "user_uuid": "328f5873-56ff-47fa-92ec-01f016cfdb2c",
+      "username": "Ani Talli",
+      "handle": "thruthsayer",
+      "bio": "burger hi burger",
+      "link": "https://www.bobbyji.com",
+      "img": "https://imgur.com/QvICKE3.jpg",
+      "instagram_url": "https://www.instagram.com/anitali",
+      "followers": [
+        {
+          "uuid": "20444525-69d9-429e-8e2d-bdce76dd9a7a"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": 1,
+      "timestamp": "Sat Nov 04 2023 01:54:27 GMT+0530 (India Standard Time)",
+      "thread_from": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hello world (of threads)",
+      "likes": [
+        {
+          "user_uuid": "328f5873-56ff-47fa-92ec-01f016cfdb2c"
+        },
+        {
+          "user_uuid": "3d7b0797-9972-43d8-8407-9e98a75efcb6"
+        },
+        {
+          "user_uuid": "20444525-69d9-429e-8e2d-bdce76dd9a7a"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "Sat Nov 04 2023 02:54:27 GMT+0530 (India Standard Time)",
+      "thread_from": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Another",
+      "likes": [
+        {
+          "user_uuid": "20444525-69d9-429e-8e2d-bdce76dd9a7a"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "timestamp": "Sat Nov 04 2023 03:54:27 GMT+0530 (India Standard Time)",
+      "thread_from": "3d7b0797-9972-43d8-8407-9e98a75efcb6",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Excited burgers!",
+      "likes": []
+    },
+    {
+      "id": 4,
+      "timestamp": "Sat Nov 04 2023 04:54:27 GMT+0530 (India Standard Time)",
+      "thread_from": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "thread_to": "3d7b0797-9972-43d8-8407-9e98a75efcb6",
+      "reply_to": 3,
+      "text": "Congrats!",
+      "likes": [
+        {
+          "user_uuid": "20444525-69d9-429e-8e2d-bdce76dd9a7a"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "timestamp": "Sat Nov 04 2023 22:54:27 GMT+0530 (India Standard Time)",
+      "thread_from": "3d7b0797-9972-43d8-8407-9e98a75efcb6",
+      "thread_to": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "reply_to": 2,
+      "text": "ok!",
+      "likes": []
+    },
+    {
+      "timestamp": "2023-11-05T23:38:02.331Z",
+      "thread_from": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "thread_to": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "reply_to": null,
+      "text": "hello",
+      "likes": [],
+      "id": 6
+    },
+    {
+      "timestamp": "2023-11-05T23:39:54.181Z",
+      "thread_from": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "thread_to": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "reply_to": 1,
+      "text": "fasdf",
+      "likes": [],
+      "id": 7
+    },
+    {
+      "timestamp": "2023-11-05T23:39:59.152Z",
+      "thread_from": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "thread_to": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "reply_to": 2,
+      "text": "fasdf",
+      "likes": [],
+      "id": 8
+    },
+    {
+      "timestamp": "2023-11-05T23:49:40.613Z",
+      "thread_from": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "thread_to": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "reply_to": null,
+      "text": "standalone",
+      "likes": [],
+      "id": 9
+    },
+    {
+      "timestamp": "2023-11-05T23:51:27.819Z",
+      "thread_from": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "thread_to": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "reply_to": 1,
+      "text": "fdasf",
+      "likes": [],
+      "id": 10
+    },
+    {
+      "timestamp": "2023-12-05T14:42:02.027Z",
+      "thread_from": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "thread_to": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "reply_to": 1,
+      "text": "helo",
+      "likes": [],
+      "id": 11
+    },
+    {
+      "timestamp": "2023-12-05T14:59:36.106Z",
+      "thread_from": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "thread_to": "20444525-69d9-429e-8e2d-bdce76dd9a7a",
+      "reply_to": null,
+      "text": "new thread",
+      "likes": [],
+      "id": 12
+    }
+  ]
+}
